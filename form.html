@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Form</title>
+    <style>
+        label{
+            display:block;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h2>welcome to our coaching center</h2>
+    <form>
+        <label for="name">Your Name
+            <input id="name" type="text"placeholder="Your Name">
+    </label>
+        
+        <label for="email">Your Email
+            <input id="email" type="email"placeholder="Your Email">
+    </label>
+        <label for="phone">Your Mobile
+            <input id="phone" type="email"placeholder="Your Phone Number">
+    </label>
+        <fieldset>
+            <legend>Choose Any Subject</legend>
+            <label for="Higher Math">
+                <input type="radio" name="Subject" id="Higher Math">
+                Higher Math
+            </label>
+            <label for="Physics">
+                <input type="radio" name="Subject" id="Physics">
+                Physics
+            </label>
+            <label for="Chemistry">
+                <input type="radio" name="Subject" id="Chemistry">
+                Chemistry
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Select first part or second part</legend>
+            <label for="">
+                <input type="checkbox" name="any part" id="First">
+                First
+            </label>
+            <label for="">
+                <input type="checkbox" name="any part" id="Second">
+                Second
+            </label>
+           
+        </fieldset>
+        <fieldset>
+            <legend>Special Instruction</legend>
+            <textarea name="" id="" cols="60" rows="3"></textarea>
+        </fieldset>
+        <input type="reset" value="Reset">
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
